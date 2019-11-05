@@ -22,6 +22,9 @@
     "codeceptjs-resemble"
   ],
   "author": "Luc Kury <luc.kury@unibas.ch>",
-  "contributors": ["Pascal Maffli <pascal.mafli@unibas.ch>"],
-  "license": "MIT"
+  "contributors": [
+    "Pascal Maffli <pascal.mafli@unibas.ch>"
+  ],
+  "license": "MIT",
+  "devDependencies": {}
 }
