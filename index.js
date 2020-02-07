@@ -72,7 +72,7 @@ class ResembleHelper extends Helper {
      * @returns {Promise<*>}
      */
     async _fetchMisMatchPercentage(image1, image2, options, id, I) {
-        const diffImage = path.join(this.config.diffFolder, getBaseName(image1));
+        const diffImage = image1.replace("base", "diff");
         const result = this._compareImages(image1, image2, diffImage, options, id, I);
         const data = await Promise.resolve(result);
         return data.misMatchPercentage;
